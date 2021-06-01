@@ -8,42 +8,23 @@
 //  del grande Gatsby, chiedi all’utente il suo nome e
 //   comunicagli se può partecipare o no alla festa.
 
-// primo esercizio :
+//  primo esercizio :
 
 
-//  var parola = prompt();
-//  var secondaParola = prompt();
+  var parola = prompt();
+  var secondaParola = prompt();
 
-//  var first = parola.length;
-//  var second = secondaParola.length;
+  var first = parola.length;
+  var second = secondaParola.length;
 
-//  if(first === second){
-//      document.getElementById("scritta").innerHTML = 'Sono ugiuali' + ' ' + parola + ' ' + secondaParola; 
+  if(first === second){
+      document.getElementById("scritta").innerHTML = 'Sono ugiuali' + ' ' + parola + ' ' + secondaParola; 
     
-//      }else if(first < second) {
-//          document.getElementById("scritta").innerHTML = parola + ' ' + secondaParola  ;
-//      }else{
-//          document.getElementById('scritta').innerHTML = secondaParola + ' ' + parola;
-//      }
-
-// secondo esercizio:
- //2=Il software deve chiedere per 5 volte all’utente di inserire
- // un numero. Il programma stampa la somma di tutti i numeri 
- // inseriti. Esegui questo programma in due versioni, con il
- // for e con il while.
-
-//  con for:
-
-   var somma = 0;
-
-   for ( var i = 0 ; i < 5; i++){
-      numero = parseInt(prompt('inserisci il numero'));
-      console.log(numero);
-      somma  = somma + numero ;
-  }
-
-   document.getElementById('calcolo').innerHTML = somma;
-   console.log(somma)
+      }else if(first < second) {
+          document.getElementById("scritta").innerHTML = parola + ' ' + secondaParola  ;
+      }else{
+          document.getElementById('scritta').innerHTML = secondaParola + ' ' + parola;
+      }
 
 
 
