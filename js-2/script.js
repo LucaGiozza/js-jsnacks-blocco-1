@@ -17,3 +17,15 @@ for ( var i = 0 ; i < 5; i++){
 document.getElementById('calcolo').innerHTML = somma;
 console.log(somma)
 
+
+
+// secondo esercizio con while
+
+  var i = 0
+ while(i < 5){
+     numero = parseInt(prompt('inserisci un numero'));
+     somma = somma + numero ;
+     i++ ;
+ }
+ document.getElementById('calcolo').innerHTML = somma;
+
